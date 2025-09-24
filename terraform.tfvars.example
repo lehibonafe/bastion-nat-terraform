@@ -1,0 +1,22 @@
+# Copy this file to terraform.tfvars and update with your values
+
+# AWS Configuration
+aws_region = "ap-southeast-1"
+
+# Project Configuration
+project_name = "bastion-natgw"
+environment  = "dev"
+
+# Network Configuration
+vpc_cidr              = "10.0.0.0/16"
+public_subnet_cidr    = "10.0.1.0/24"
+private_subnet_cidr   = "10.0.2.0/24"
+availability_zone     = "ap-southeast-1a"
+
+# EC2 Configuration (Free Tier)
+key_pair_name            = "your-keypair-name"
+bastion_instance_type    = "t2.micro"
+private_instance_type    = "t2.micro"
+
+# Security Configuration
+allowed_ssh_cidr_blocks = ["0.0.0.0/0"]  # Restrict this to your IP for better security
