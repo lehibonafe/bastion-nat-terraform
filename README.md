@@ -1,8 +1,8 @@
-# 🏗️ AWS Bastion Host with NAT Gateway - Terraform Deployment
+# AWS Bastion Host with NAT Gateway - Terraform
 
 This Terraform configuration creates a bastion host architecture with NAT Gateway on AWS using free tier eligible resources.
 
-## 🏛️ Architecture Overview
+## Architecture Overview
 ![alt text](2025-09-24_23-22-34.png)
 
 ## 📋 Prerequisites
