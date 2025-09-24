@@ -2,18 +2,8 @@
 
 This Terraform configuration creates a bastion host architecture with NAT Gateway on AWS using free tier eligible resources.
 
-## Architecture
-
-```
-Internet Gateway
-    |
-Public Subnet (10.0.1.0/24)
-    |-- Bastion Host (t2.micro)
-    |-- NAT Gateway
-    |
-Private Subnet (10.0.2.0/24)
-    |-- Private Instance (t2.micro)
-```
+## Architecture Oveview
+![alt text](2025-09-24_23-22-34.png)
 
 ## Prerequisites
 
