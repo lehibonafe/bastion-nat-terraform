@@ -250,5 +250,3 @@ To remove all resources:
 ```bash
 terraform destroy
 ```
-
-This will delete all created AWS resources and stop billing.
