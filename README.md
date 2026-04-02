@@ -5,7 +5,7 @@ This Terraform configuration creates a bastion host architecture with NAT Gatewa
 ## Architecture Overview
 ![alt text](2025-09-24_23-22-34.png)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - 🔧 Terraform >= 1.0
 - ☁️ AWS CLI configured with credentials
